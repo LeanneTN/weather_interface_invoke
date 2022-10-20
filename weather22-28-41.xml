@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weather>
+  <!--本文件为接口所获取到的上海天气-->
+  <province id="province">直辖市 上海</province>
+  <area id="area">上海</area>
+  <current_time id="current_time">2022/10/20 22:25:52</current_time>
+  <weather_today id="weather_today">
+    <current_weather id="current_weather">今日天气实况：气温：17℃；风向/风力：北风 0级；湿度：75%</current_weather>
+    <uv_index id="uv_index">紫外线强度：强。</uv_index>
+    <advice id="advice">
+      <cold_index id="cold_index">感冒指数：少发，无明显降温，感冒机率较低。</cold_index>
+      <sport_index id="sport_index">运动指数：较适宜，风力稍强，推荐您进行室内运动。</sport_index>
+      <allergic_index id="allergic_index">过敏指数：较易发，外出需远离过敏源，适当采取防护措施。</allergic_index>
+    </advice>
+    <brief_report id="brief_report">
+      <report_in_3_days>
+        <weather_condition>10月20日 多云</weather_condition>
+        <temperature>16℃/21℃</temperature>
+        <wind>东风3-4级转小于3级</wind>
+      </report_in_3_days>
+      <report_in_3_days>
+        <weather_condition>10月21日 多云转晴</weather_condition>
+        <temperature>18℃/24℃</temperature>
+        <wind>东南风3-4级转北风小于3级</wind>
+      </report_in_3_days>
+      <report_in_3_days>
+        <weather_condition>10月22日 多云转晴</weather_condition>
+        <temperature>16℃/24℃</temperature>
+        <wind>东北风转北风3-4级</wind>
+      </report_in_3_days>
+      <report_in_3_days>
+        <weather_condition>10月23日 多云</weather_condition>
+        <temperature>15℃/23℃</temperature>
+        <wind>北风3-4级</wind>
+      </report_in_3_days>
+      <report_in_3_days>
+        <weather_condition>10月24日 晴</weather_condition>
+        <temperature>16℃/21℃</temperature>
+        <wind>东北风3-4级</wind>
+      </report_in_3_days>
+    </brief_report>
+  </weather_today>
+</weather>
+
